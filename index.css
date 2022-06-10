@@ -1,0 +1,1312 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100&family=League+Spartan:wght@300;500;600;700;800;900&family=Lexend+Deca:wght@200;300;400;500;700;800;900&family=Roboto:ital,wght@0,500;0,700;0,900;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lexend Deca';
+    overflow-x: hidden;
+}
+
+.scooter_container{
+    max-width: 2860px;
+    margin: 0 auto;
+}
+/* Header_css */
+
+.header_base{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10em;
+    margin-right: 10em;
+    padding: 20px;
+}
+
+.header_item{
+    display: flex;
+}
+.header_item >h1{
+    font-weight: 500;
+    color: #495567;
+
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+ul >li{
+    margin-left: 35px;
+    position: relative;
+    top:15px;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: #939CAA;
+    font-size: 15px;
+}
+a:hover{
+    color: #FCB72B;
+}
+
+.header_base > button{
+    padding: 15px 30px 15px ;
+    font-size: 17px;
+    text-transform: capitalize;
+    font-family: 'Lexend Deca';
+    color: #fff;
+    background-color: #FCB72B;
+    border: none;
+}
+.humburger{
+  display: none;
+}
+
+.header-btn:hover{
+    border: 1px solid #FCB72B;
+    background-color: #fff;
+    color:#FCB72B;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/* banner */
+
+.banner-btn{
+    padding: 15px 30px 15px ;
+    font-size: 17px;
+    text-transform: capitalize;
+    font-family: 'Lexend Deca';
+    color: #fff;
+    background-color: #FCB72B;
+    border: none; 
+    position: relative;
+    left: 13.5rem;
+    top:-3px
+}
+
+.banner-btn:hover{
+    border: 1px solid #FCB72B;
+    background-color: transparent;
+    color:#FCB72B;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.banner{
+    padding-top: 2rem;
+    background-image: url("/assets/images/home-hero-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.banner >h2{
+    font-size: 56px;
+    width: 35%;
+    position: relative;
+    left: 3.3em;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 100px;
+    margin-bottom: 35px;
+}
+
+.banner >p{
+    width: 35%;
+    color: #fff;
+    font-weight: 300;
+    position: relative;
+    left: 13.3rem;
+}
+
+.arrow{
+position: relative;
+left: 35rem;
+width: 30%;
+top: -50px;
+transform: rotate(180deg);
+}
+.line{
+    position: relative;
+    left: -36.8rem;
+    top: -8rem;
+width: 11%;
+}
+
+.circle_1{
+    width: 10%;
+    position: relative;
+    left: 77.3rem;
+    top: -7rem;
+}
+
+
+/* information */
+
+.info{
+    padding-top:10rem;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -85px;
+}
+.line2{
+    width: 70%;
+    height: 15px;
+    position: relative;
+    top:8rem;
+    margin-bottom: 5px;
+
+}
+
+.location{
+    width: 85px;
+}
+
+.info1 > h3{
+    font-size: 25px;
+    color: #495567;
+    font-weight: 600;
+    margin-top:30px;
+}
+
+.info{
+    display: flex;
+    position: relative;
+    left: 13rem;
+}
+.info1{
+    width: 365px;
+    position: relative;
+    left: -1.5rem;
+}
+.info1 >p{
+    color: #939CAA;
+    margin-top: 30px;
+    font-size: 15px;
+  
+    line-height: 25.3px;
+}
+
+.info2{
+    width:340px;
+    position: relative;
+    left: -110px;
+}
+.info2 > h3{
+    font-size: 25px;
+    color: #495567;
+    font-weight: 600;
+    margin-top:30px;
+}
+.info2 >p{
+    color: #939CAA;
+    margin-top: 30px;
+    font-size: 15px;
+   
+    line-height: 25.3px;
+}
+
+.info3{
+    width: 365px;
+    position: relative;
+    left: -230px;
+    margin-right:50px;
+}
+
+.info3 > h3{
+    font-size: 25px;
+    color: #495567;
+    font-weight: 600;
+    margin-top:30px;
+}
+.info3 >p{
+    color: #939CAA;
+    margin-top: 30px;
+    font-size: 15px;
+   
+    line-height: 25.3px;
+}
+
+
+/* detailed information */
+
+.easy_use{
+    display: flex;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.detailed_section > h3 {
+    color: #495567;
+    font-size: 48px;
+    font-weight: 430;
+    width: 390px;
+}
+
+.detailed_section >p{
+    width: 550px;
+    margin-top: 20px;
+    color: #939CAA;
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.detailed_section > button{
+    padding: 15px 30px 15px ;
+    font-size: 17px;
+    text-transform: capitalize;
+    font-family: 'Lexend Deca';
+    color: #fff;
+    background-color: #FCB72B;
+    border: none; 
+    position: relative;
+    left: 0.5rem;
+    top:3em;
+    text-transform: capitalize;
+}
+
+.detailed_section >button:hover{
+    border: 1px solid #FCB72B;
+    background-color: #fff;
+    color:#FCB72B;
+    font-weight: 500;
+    cursor: pointer;  
+}
+.telemtry{
+    border-radius: 50%;
+    width: 85%;
+    object-fit: contain;
+    position: relative;
+    left: 8.5rem;
+}
+
+.detailed_arrow{
+    /* width: 600px; */
+    position: relative;
+    /* height: 80px; */
+    left: 49rem;
+    top: -11rem;
+    z-index: 50;
+}
+
+.detailed_circle{
+    width: 350px;
+    position: absolute;
+    left: 80rem;
+    font-size: 48px;
+    font-weight: 430;
+    top: 73rem;
+}
+.coming{
+    display: flex;
+}
+.coming_details{
+   position: relative;
+   left: 20rem;
+}
+
+.coming_details >h3{
+    color: #495567;
+    font-size: 48px;
+    font-weight: 430;
+    width: 400px;
+}
+
+.coming_details >button{
+    padding: 15px 30px 15px ;
+    font-size: 17px;
+    text-transform: capitalize;
+    font-family: 'Lexend Deca';
+    color: #fff;
+    background-color: #FCB72B;
+    border: none; 
+    position: relative;
+    left: 0.5rem;
+    top:3em;
+    text-transform: capitalize;
+}
+
+.coming_details >button:hover{
+    border: 1px solid #FCB72B;
+    background-color: #fff;
+    color:#FCB72B;
+    font-weight: 500;
+    cursor: pointer;
+}
+.coming_details >p{
+    width: 550px;
+    width: 550px;
+    margin-top: 20px;
+    color: #939CAA;
+    line-height: 25px;
+    font-size: 15px;
+    
+}
+.nearyou_img{
+    border-radius: 50%;
+    width: 85%;
+    object-fit: contain;
+    position: relative;
+    left: 8.5rem;
+    top: -4rem;
+}
+
+.nearyou_arrow{
+    position: relative;
+    top: -40.3rem;
+    left: -12.3rem;
+}
+
+.nearyou_circle{
+    width: 350px;
+    position: relative;
+    left: -47rem;
+    top:-28rem;
+}
+
+.zero_hastle{
+    position: relative;
+    top: -15rem;
+    display: flex;
+}
+
+.zero_details > h3{
+    color: #495567;
+    font-size: 48px;
+    font-weight: 430;
+    width: 390px;
+    margin-left: 8rem; 
+}
+
+.zero_details >p{
+    width: 550px;
+    margin-top: 20px;
+    color: #939CAA;
+    line-height: 25px;
+    font-size: 15px;
+    position: relative;
+    left: 8rem;
+}
+.payment{
+    border-radius: 50%;
+    width: 85%;
+    object-fit: contain;
+    position: relative;
+    left: 16.5rem;
+
+}
+
+.zero_details >button{
+    padding: 15px 30px 15px ;
+    font-size: 17px;
+    text-transform: capitalize;
+    font-family: 'Lexend Deca';
+    color: #fff;
+    background-color: #FCB72B;
+    border: none; 
+    position: relative;
+    left: 7.5rem;
+    top:3em;
+    text-transform: capitalize;
+
+}
+
+.zero_details >button:hover{
+    border: 1px solid #FCB72B;
+    background-color: #fff;
+    color:#FCB72B;
+    font-weight: 500;
+    cursor: pointer; 
+}
+
+.payment_arrow{
+    position: relative;
+    /* height: 80px; */
+    left: 65rem;
+    top: -33rem;
+    z-index: 50;
+}
+
+.payment_circle{
+    width: 350px;
+    position: absolute;
+    left: 80rem;
+    font-size: 48px;
+    font-weight: 430;
+    top: 140rem;
+}
+
+.main_footer{
+    background-color: #495567;
+    height: 50vh;
+}
+.footer{
+  
+    display: flex;
+    height: 28vh;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    position: relative;
+    top:10rem;
+    background-size: cover;
+    background-image: url("/assets/patterns/semi-circles.svg");
+}
+
+.footer > h3{
+    width: 600% !important;
+    margin-left: 8rem;
+    position: relative;
+    top: -3rem;
+    color: #fff;
+    font-weight: 430;
+    /* color: #fff; */
+    font-size: 58px !important;
+}
+
+.app_store{
+    width: 200px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 5px;
+    position: relative;
+    top: 10px;
+    left: -15rem !important;
+}
+
+.google_store{
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+    position: relative;
+    top: 10px;
+    left: -10rem;
+}
+
+.footer_state{
+    font-size: 30px;
+    margin-left: 8rem;
+    color: #fff;
+    position: relative;
+    top: -3px;
+}
+
+.sub_footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #333A44;
+    position: relative;
+    top:0.rem;
+}
+.sub_ft{
+    display: flex;
+}
+
+.sub_f{
+    text-transform: capitalize;
+    position: relative;
+    top:-0.3rem;
+    cursor: pointer;
+}
+
+.logo{
+    position: relative;
+    left: -15rem;
+
+}
+
+.twitter{
+    position: relative;
+    left: 50px;
+}
+
+.ig{
+    position: relative;
+    left: 20px;
+}
+
+
+
+
+
+/* Tablet Screen */
+@media (min-width:481px) and (max-width:768px){
+   body{
+       overflow-x: hidden !important;
+      
+   }
+    .scooter_container{
+ 
+        max-width: 1481px !important;
+        margin: 0 auto;
+  
+    }
+
+ 
+
+    .header_item >h1{
+        position: relative;
+        left: -8.5rem;
+    }
+
+    ul{
+        position: relative;
+        left: -3.5rem;
+        
+    }
+
+    ul>li{
+        margin-left: 13px;
+        font-size:18px;
+    }
+
+    .header_base >button{
+        padding: 3px 5px 5px 50px;
+        width: 100%;
+        height: 30px;
+        font-size: 15px;
+        margin-right: 50px;
+        position: relative;
+        top: 10px;
+        left: 7.5rem;
+    }
+    .get{
+        position: relative;
+        left: -50px;
+        top:3px;
+    }
+
+    .scop{
+        position: relative;
+        top: -16px;
+    }
+
+   .banner{
+       height: 100vh;
+       /* object-fit: cover; */
+       background-repeat: no-repeat;
+       background-image: url('./assets/images/home-hero-tablet.jpg');
+       background-size: cover;
+       background-position: center;
+   }
+
+   .banner > h2{
+       font-size:35px;
+       width: 300px;
+       margin-left: 85px;
+       position: relative;
+       top: 65px;
+   }
+   .banner >p{
+       width: 80%;
+       position: relative;
+       left: 3rem;
+       top: 95px;
+       font-size:25px;
+       margin-left: 20px;
+       margin-right: 20px;
+   }
+
+   .line{
+       display: none;
+   }
+   .banner >button{
+       position: relative;
+       left: 18rem;
+       top:10rem;
+   }
+
+   .arrow{
+       position: relative;
+       width: 380px;
+       left: -10rem;
+       top: 23rem;
+
+   }
+
+   .circle_1{
+       left: 36.8rem;
+       width: 25%;
+       top: 18.8rem;
+   }
+
+   .line2{
+       transform: rotate(270deg);
+       position: relative;
+       left: -6.5rem;
+       top: 22.3rem;
+       width: 95%;
+   }
+
+   .location1{
+    width:90px;
+    position: relative;
+    left: 2rem;
+   }
+   .location{
+       width:85px;
+       position: relative;
+       left: 9.6rem;
+   }
+   .info{
+       display: flex;
+       flex-direction: column;
+   }
+
+   .info1 >h3{
+       position: relative;
+       left: 12rem;
+       top:-5.8rem;
+       font-size:30px; 
+   }
+
+   .info1 >p{
+     position: relative;
+     left: 9rem;
+     top: -80px;
+     font-size: 16px; 
+   }
+
+.location2{
+    position: relative;
+    left:6.8rem
+}
+
+.info2 >h3{
+    position: relative;
+    left: 17.3rem;
+    top:-6.3rem;
+    font-size:30px;  
+}
+
+.info2 >p{
+    position: relative;
+    left: 15rem;
+    top: -80px;
+    font-size: 16px; 
+}
+
+.location3{
+    position: relative;
+    left:14.5rem 
+}
+
+.info3 >h3{
+    position: relative;
+    left: 25.3rem;
+    top:-6.3rem;
+    font-size:30px;  
+}
+
+.info3 >p{
+    position: relative;
+    left: 23rem;
+    top: -80px;
+    font-size: 16px; 
+}
+
+.easy_use{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.telemtry{
+    position: relative;
+    left: -3.5rem;
+    width:90%;
+}
+
+.detailed_arrow{
+    position: relative;
+    height: 100px;
+    width: 80%;
+    left: 2.3rem;
+    top: -28rem;
+    z-index: 50;
+}
+.detailed_circle{
+    width:55%;
+    position: relative;
+    left: 39rem;
+    color:black;
+    top:-50rem;
+
+}
+.payment_circle{
+    width:50px;
+    position: relative;
+    color: black;
+}
+
+.detailed_section >h3{
+    position: relative;
+    top: 25px;
+}
+
+.detailed_section >p{
+    position: relative;
+    top: 30px;
+    font-size: 18px;
+}
+
+.detailed_section >button{
+    position: relative;
+    top:130px;
+    left:130px;
+}
+
+.nearyou_img{
+    width: 500px;
+    position: relative;
+    left: 13.3rem;
+    top: -150px;
+}
+
+.nearyou_circle{
+    width:350px;
+    position: relative;
+    top: -70.3rem;
+    left: -13rem;
+}
+
+.nearyou_arrow{
+    z-index: 50;
+    position: relative;
+    top: -62.3rem;
+    left: -1.8rem;
+}
+
+.coming{
+  display: flex;
+  flex-direction: column-reverse;  
+  position: relative;
+  top: -20rem;
+}
+
+
+.coming_details{
+    position: relative;
+    top: 42rem;
+}
+.coming_details >h3{
+    color: #495567;
+    font-size: 48px;
+    font-weight: 430;
+    width: 450px;
+    position: relative;
+    left: -8.9rem;
+}
+
+.coming_details >p{
+    position: relative;
+    top: 30px;
+    left: -160px;
+    font-size: 18px;
+}
+
+.coming_details >button{
+    position: relative;
+    top:130px;
+    left:10px;
+}
+.zero_hastle{
+    display: flex;
+    flex-direction: column-reverse;  
+    position: relative;
+    top: -20rem;
+
+}
+
+.payment{
+    position: relative;
+    left: 5.5rem;
+    width:500px;
+}
+
+.zero_details >h3{
+    color: #495567;
+    font-size: 48px;
+    font-weight: 430;
+    width: 450px;
+    position: relative;
+    left: 3.2rem;
+    top:3rem;
+
+}
+
+.zero_details >p{
+    position: relative;
+    top: 55px;
+    left: 165px;
+    font-size: 18px;
+}
+
+.zero_details >button{
+    position: relative;
+    top:130px;
+    left: 18rem;
+}
+
+.payment_circle{
+    width:400px;
+    position: relative;
+    top: -75.3rem;
+    left: 40rem;
+}
+.payment_arrow{
+    z-index: 50;
+    position: relative;
+    top: -62.3rem;
+    left: 16.8rem;
+}
+
+.main_footer{
+    /* height: 30vh; */
+}
+.footer{
+    height: 20vh;
+}
+
+.footer >h3{
+    width: 10%;
+    font-size: 50px;
+}
+
+.app_store{
+    position: relative;
+    top: 15rem;
+    width: 650px;
+    left: -10rem;
+}
+
+.google_store{
+    position: relative;
+    top: 15rem;
+    width: 650px;
+    left: -6rem;
+}
+.and{
+    position: relative;
+    top: -4.5rem;
+    left: 14.8rem;
+}
+.scoot{
+    position: relative;
+    top:-3.8rem;
+    left:-0.9rem
+}
+
+.humburger{
+    display: none;
+  }
+
+.off_today{
+    position: relative;
+    top: -8.5rem;
+    left: 9.8rem;
+    display: flex;
+}
+
+}
+
+
+/* Mobile Screen */
+@media (min-width:320px) and (max-width:480px){
+   .scooter_container{
+       max-width: 480px;
+       margin: 0 auto;
+   }
+
+   .header_item{
+
+   }
+
+   ul{
+       display: none;
+   }
+
+   .header_base > button{
+       display: none;
+   }
+
+   .humburger{
+       display: block;
+       object-fit: cover;
+       height: 3vh;
+       position: relative;
+       left: -13rem;
+       top:1rem
+   }
+
+   .banner{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-image: url('./assets/images/home-hero-mobile.jpg');
+    background-size: cover;
+    background-position: center;
+   }
+
+   .banner >h2{
+       width:305px;
+       font-size:35px;
+       margin-left: 85px;
+       position: relative;
+       top: 65px;
+       left: -2rem;
+   }
+
+   .banner >p{
+       width:90%;
+       position: relative;
+       left: -2rem;
+       top:60px;
+       margin-left: 50px;
+       margin-right:20px;
+   }
+   
+   .banner >button{
+    position: relative;
+    left: 8rem;
+    top:7.3rem;
+
+}
+
+.arrow{
+    position: relative;
+       width: 500px;
+       left: -23.8rem;
+       top: 15rem;
+}
+
+.line2{
+    display: none;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+.location1{
+    width:85px;
+    position: relative;
+    left: -3rem;
+}
+
+.info1 >h3{
+    position: relative;
+    left: -7rem;
+    top:-0.8rem;
+    font-size:30px; 
+}
+
+.info1 >p{
+    position: relative;
+    left: -9rem;
+    top: -8px;
+    width: 300px;
+    font-size: 16px;
+}
+
+.location2{
+    width:85px;
+    position: relative;
+    left: 3.2rem;
+    top:40px;
+}
+
+.info2 >h3{
+    position: relative;
+    left: -2.9rem;
+    top:1.9rem;
+    font-size:30px;
+}
+.info2 >p{
+    position: relative;
+    left: -3rem;
+    top: 20.9px;
+    font-size: 16px; 
+}
+
+.location3{
+    position: relative;
+    left:10.5rem; 
+    top:53.5px;
+}
+.info3 >h3{
+    position: relative;
+    left: 5.3rem;
+    top:2.3rem;
+    font-size:30px; 
+}
+
+.info3 >p{
+    width: 300px;
+    position: relative;
+    top:10px;
+    margin-left: 80px;
+}
+
+.easy_use{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.telemtry{
+  width: 450%;
+  object-fit: cover;
+  position: relative;
+  left: -7.7rem;
+}
+
+.detailed_circle{
+    display: none;
+}
+
+.detailed_arrow{
+    position: relative;
+    height: 100px;
+    width: 850px;
+    left: 0.3rem;
+    top: -28rem;
+    z-index: 50;
+}
+
+.detailed_section >h3{
+    position: relative;
+    top: 30px; 
+    left: -8rem;
+    font-size: 35px;
+}
+
+.detailed_section >p{
+    position: relative;
+    top: 30px;
+    width: 500%;
+    margin-left: 20px;
+    left: -139px;
+    font-size: 18px;
+}
+
+.detailed_section >button{
+    height:50px;
+    width: 200px;
+    position: relative;
+    left: -60px;
+    top: 60px;
+}
+
+.nearyou_circle{
+    display: none;
+}
+
+.nearyou_arrow{
+    position: relative;
+    top:-28.8rem;
+    /* display: none; */
+}
+
+
+.coming{
+  display: flex;
+  flex-direction: column;  
+  position: relative;
+  top: 50rem; 
+}
+
+.nearyou_img{
+    position: relative;
+    top: -45rem;
+    left: 35px;
+}
+
+.coming_details >h3{
+    color: #495567;
+    font-size: 38px;
+    font-weight: 430;
+    width: 350px;
+    top:-40rem;
+    position: relative;
+    left: -16.9rem;
+}
+
+.coming_details >p{
+    position: relative;
+    top: -630px;
+    width: 320px;
+    left: -18rem;
+}
+
+.coming_details >button{
+    position: relative;
+    top:-35rem;
+    left:-12rem;
+}
+
+.zero_hastle{
+    display: flex;
+    flex-direction: column-reverse;  
+    position: relative;
+    top: 20rem;
+}
+
+.payment_circle{
+    display: none;
+}
+.payment{
+    position: relative;
+    left: 1.5rem;
+    width:320px;
+}
+
+.payment_arrow{
+    z-index: 50;
+    position: relative;
+    top: -20.3rem;
+    left: 9.8rem;
+}
+
+.zero_details >h3{
+    color: #495567;
+    font-size: 43px;
+    font-weight: 430;
+    width: 450px;
+    position: relative;
+    left: -3.8rem;
+    top:3rem;
+
+}
+
+.zero_details >p{
+    position: relative;
+    top: 55px;
+    width: 85%;
+    left: 3rem;
+    font-size: 18px;
+}
+
+.zero_details >button{
+    position: relative;
+    top:130px;
+    left: 8rem;
+}
+
+.main_footer{
+   position: relative;
+   background-size: cover;  
+   background-repeat: no-repeat;
+   top: 39rem;
+}
+.sub_footer{
+    position: relative;
+    top: 39rem;
+}
+
+.footer >h3{
+   font-size: 38px !important;
+   margin-left: 35px;
+   display: flex;
+ 
+  
+}
+
+.up{
+  position: relative;
+  left: 20px;
+}
+.and{
+ position: relative;
+ left: 35px;
+}
+.scoot{
+    position: relative;
+    left: 40px;
+}
+
+.off_today{
+    position: relative;
+    top: 50px;
+    left: -11rem;
+    display: inline-block;
+    flex-direction: row;
+    word-wrap: normal;
+    
+}
+
+.app_store{
+    /* width: 50px; */
+    position: relative;
+    top:135px;
+    left: -26.3rem !important;
+    width: 150px;
+    object-fit: contain !important;
+}
+
+.google_store{
+    position: relative;
+    width: 175px;
+    object-fit: contain !important;
+    top:135px;
+    left: -25.3rem !important;
+}
+
+.sub_footer{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.sub_ft{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_state{
+    position: relative;
+    left: -1.5rem !important;
+    font-size: 35px;
+}
+.sub_ft >li{
+    line-height: 50px;
+    position: relative;
+    left: 5.6rem;
+}
+
+.logo{
+    display: flex;
+    position: relative;
+    top: -3rem;
+    left: 0px;
+    justify-content: space-between;
+
+}
+
+.fb{
+    width: 50px;
+    object-fit: contain;
+    position: relative;
+    left: 2.8rem;
+}
+
+.ig{
+    width: 50px;
+    object-fit: contain;
+    position: relative;
+    left: 0.5rem;
+}
+
+.twitter{
+    width: 50px;
+    object-fit: contain;
+    position: relative;
+    left:-2.8rem;
+}
+}
